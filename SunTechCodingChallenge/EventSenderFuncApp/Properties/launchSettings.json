@@ -3,7 +3,9 @@
     "EventSenderFuncApp": {
       "commandName": "Project",
       "commandLineArgs": "--port 7190",
-      "launchBrowser": false
+      "environmentVariables": {
+        "CosmosDbNoSQL:ConnectionString": "AccountEndpoint=https://suntechsqlaccount.documents.azure.com:443/;AccountKey=msZED1xOHqvdQlJum0RwhBTZ4HDnx5LvJ3niy2Q1W2w4jA7iADalcNRuifJfdR9bOvW4aUMxsrS0ACDbUdgCXg==;"
+      }
     }
   }
 }
