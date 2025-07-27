@@ -17,6 +17,6 @@ Requirements
 
 <img width="528" height="334" alt="image" src="https://github.com/user-attachments/assets/405c9495-2e05-4992-954a-5213755d6c91" />
 
-Result > I passed the technical exam then I had been proceed to the next step which technical interview.
+Result > I passed the technical exam then I had been proceed to the next step which is the technical interview.
 
 <img width="673" height="260" alt="image" src="https://github.com/user-attachments/assets/260eb68c-25be-4a50-9745-7f1fd076db88" />
