@@ -4,6 +4,18 @@
 
 ![image](https://github.com/mkc-lomio/SunTechCodingChallenge/assets/78136159/c8b4254b-203b-4049-9e0e-92605aba5fd5)
 
+STEP 1: Developer uses Postman to trigger the Event Sender Function App via an HTTP request.
+
+STEP 2: Event Sender performs a data operation (e.g., insert or update) in Azure Cosmos DB.
+
+STEP 3: Event Listener Function App is triggered by the change in Cosmos DB.
+
+STEP 4: Event Listener detects the change (insert/update), creates an event, and publishes it to Azure Event Grid using the Event Grid API.
+
+STEP 5: Event Grid processes the incoming event and routes it to the configured Event Grid Topic.
+
+STEP 6: The Event Grid Topic can then forward this event to various downstream systems (e.g., Azure Storage Queue) based on configured subscriptions.
+
 ### Technical Exam Story Line
 
 Context > I had to take skill assessment/technical exam before going to interview
